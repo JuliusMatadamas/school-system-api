@@ -1,0 +1,31 @@
+{
+  "name": "school-system-api",
+  "version": "1.0.0",
+  "description": "School management system API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliusMatadamas/school-system-api.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Julio Cesar Matadamas Zaragoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliusMatadamas/school-system-api/issues"
+  },
+  "homepage": "https://github.com/JuliusMatadamas/school-system-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
